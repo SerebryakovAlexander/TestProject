@@ -2,29 +2,27 @@ package com.testproject.demo;
 
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.CacheManager;
-import net.sf.ehcache.Ehcache;
 import net.sf.ehcache.Element;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CachePut;
-import org.springframework.cache.annotation.Cacheable;
-import org.springframework.stereotype.Service;
 
-@Service
+
 public class TestCacheService {
 
-    static Long l = 0L;
+    private final TestCacheStrategy cacheStrategy;
+    private final CacheManager cacheManager;
 
-    @Autowired
-    private CacheManager cacheManager;
+    public TestCacheService(TestCacheStrategy cacheStrategy, CacheManager cacheManager) {
+        this.cacheManager = cacheManager;
+        this.cacheStrategy = cacheStrategy;
+    }
 
     public void putEntry(String key, Object o) {
-        Cache cache = cacheManager.getCache("lru_region");
+        Cache cache = cacheManager.getCache(getRegionDependingOnStrategy(this.cacheStrategy));
         Element element = new Element(key, o);
         cache.putIfAbsent(element);
     }
 
     public Object getEntry(String key) {
-        Cache cache = cacheManager.getCache("lru_region");
+        Cache cache = cacheManager.getCache(getRegionDependingOnStrategy(this.cacheStrategy));
         Element e = cache.get(key);
         if (e == null) {
             return null;
@@ -32,8 +30,10 @@ public class TestCacheService {
         return e.getObjectValue();
     }
 
-    @CachePut(value = "lru_region", key="#key")
-    public Object putEntryInternal(String key, Object o) {
-        return o;
+    private String getRegionDependingOnStrategy(TestCacheStrategy cacheStrategy) {
+        if (cacheStrategy == TestCacheStrategy.LRU) {
+            return "lru_region";
+        }
+        return "lfu_region";
     }
 }
