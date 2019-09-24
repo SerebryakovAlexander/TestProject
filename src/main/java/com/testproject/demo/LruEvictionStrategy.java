@@ -1,32 +1,30 @@
 package com.testproject.demo;
 
 import java.time.LocalDateTime;
+import java.util.ArrayDeque;
 import java.util.Date;
+import java.util.Deque;
 import java.util.HashMap;
 
 public class LruEvictionStrategy implements EvictionStrategy {
-    protected HashMap<String, LocalDateTime> priorityMap = new HashMap<>();
+    protected Deque<String> priorityQueue = new ArrayDeque<>();
 
     public void addKey(String key) {
-        priorityMap.putIfAbsent(key, LocalDateTime.now());
+        priorityQueue.push(key);
     }
     public void updateKey(String key) {
-        if (priorityMap.containsKey(key)) {
-            priorityMap.put(key, LocalDateTime.now());
+        if (priorityQueue.contains(key)) {
+            priorityQueue.removeFirstOccurrence(key);
+            priorityQueue.push(key);
         }
     }
     public void removeKey(String key) {
-        priorityMap.remove(key);
+        priorityQueue.removeFirstOccurrence(key);
     }
     public String getMinKeyValue() {
-        String minKey = null;
-        LocalDateTime minValue = LocalDateTime.MAX;
-        for (HashMap.Entry e : priorityMap.entrySet()) {
-            if (((LocalDateTime)e.getValue()).isBefore(minValue)) {
-                minValue = (LocalDateTime)e.getValue();
-                minKey = (String)e.getKey();
-            }
+        if (priorityQueue.size() > 0) {
+            return priorityQueue.getLast();
         }
-        return minKey;
+        return null;
     }
 }

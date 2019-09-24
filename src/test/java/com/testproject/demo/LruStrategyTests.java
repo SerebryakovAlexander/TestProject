@@ -26,9 +26,7 @@ public class LruStrategyTests {
         lru.addKey("K2");
         lru.addKey("K3");
 
-        Thread.sleep(10);
         lru.updateKey("K1");
-        Thread.sleep(10);
         lru.updateKey("K3");
 
         Assert.assertEquals("K2", lru.getMinKeyValue());
