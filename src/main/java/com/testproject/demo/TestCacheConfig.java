@@ -1,7 +1,5 @@
 package com.testproject.demo;
 
-import net.sf.ehcache.CacheManager;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

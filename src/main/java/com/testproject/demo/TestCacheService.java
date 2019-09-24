@@ -1,11 +1,6 @@
 package com.testproject.demo;
 
-import net.sf.ehcache.Cache;
-import net.sf.ehcache.CacheManager;
-import net.sf.ehcache.Element;
-
 import java.util.HashMap;
-
 
 public class TestCacheService {
 

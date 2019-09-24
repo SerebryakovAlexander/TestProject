@@ -1,10 +1,7 @@
 package com.testproject.demo;
 
-import java.time.LocalDateTime;
 import java.util.ArrayDeque;
-import java.util.Date;
 import java.util.Deque;
-import java.util.HashMap;
 
 public class LruEvictionStrategy implements EvictionStrategy {
     protected Deque<String> priorityQueue = new ArrayDeque<>();
