@@ -4,36 +4,43 @@ import net.sf.ehcache.Cache;
 import net.sf.ehcache.CacheManager;
 import net.sf.ehcache.Element;
 
+import java.util.HashMap;
+
 
 public class TestCacheService {
 
-    private final TestCacheStrategy cacheStrategy;
-    private final CacheManager cacheManager;
+    private final int maxSize;
+    private final EvictionStrategy evictionStrategy;
+    private final HashMap<String, Object> objectMap = new HashMap<>();
 
-    public TestCacheService(TestCacheStrategy cacheStrategy, CacheManager cacheManager) {
-        this.cacheManager = cacheManager;
-        this.cacheStrategy = cacheStrategy;
+    public TestCacheService(int maxSize, EvictionStrategy evictionStrategy) {
+        this.maxSize = maxSize;
+        this.evictionStrategy = evictionStrategy;
     }
 
     public void putEntry(String key, Object o) {
-        Cache cache = cacheManager.getCache(getRegionDependingOnStrategy(this.cacheStrategy));
-        Element element = new Element(key, o);
-        cache.putIfAbsent(element);
+        if (objectMap.containsKey(key)) {
+            objectMap.put(key, o);
+            evictionStrategy.updateKey(key);
+        }
+        else if (objectMap.size() < maxSize) {
+            objectMap.put(key, o);
+            evictionStrategy.addKey(key);
+        }
+        else {
+            String minKey = evictionStrategy.getMinKeyValue();
+            objectMap.remove(minKey);
+            objectMap.put(key, o);
+            evictionStrategy.removeKey(key);
+        }
     }
 
     public Object getEntry(String key) {
-        Cache cache = cacheManager.getCache(getRegionDependingOnStrategy(this.cacheStrategy));
-        Element e = cache.get(key);
-        if (e == null) {
-            return null;
+        if (objectMap.containsKey(key)) {
+            evictionStrategy.updateKey(key);
+            return objectMap.get(key);
         }
-        return e.getObjectValue();
+        return null;
     }
 
-    private String getRegionDependingOnStrategy(TestCacheStrategy cacheStrategy) {
-        if (cacheStrategy == TestCacheStrategy.LRU) {
-            return "lru_region";
-        }
-        return "lfu_region";
-    }
 }

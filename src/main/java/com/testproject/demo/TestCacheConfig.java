@@ -8,16 +8,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class TestCacheConfig {
 
-    @Autowired
-    private CacheManager cacheManager;
-
     @Bean(name = "lru_cache_service")
     TestCacheService getLruCacheService() {
-        return new TestCacheService(TestCacheStrategy.LRU, cacheManager);
+        return new TestCacheService(3, new LruEvictionStrategy());
     }
 
     @Bean(name = "lfu_cache_service")
     TestCacheService getLfuCacheService() {
-        return new TestCacheService(TestCacheStrategy.LFU, cacheManager);
+        return new TestCacheService(3, new LfuEvictionStrategy());
     }
 }

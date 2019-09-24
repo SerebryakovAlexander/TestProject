@@ -19,28 +19,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="java" value="10" />
+          <entry key="class" value="9" />
+          <entry key="java" value="20" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="10" />
+          <entry key="CLASS" value="9" />
+          <entry key="JAVA" value="20" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="1816" />
+          <entry key="java" value="3803" />
           <entry key="xml" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1816" />
+          <entry key="JAVA" value="3803" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="41" />
         </counts>
@@ -52,8 +52,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            <state relative-caret-position="546">
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/LfuEvictionStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/LruEvictionStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/LruStrategyTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,70 +107,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/sf/ehcache/ehcache/2.10.6/ehcache-2.10.6.jar!/net/sf/ehcache/event/CacheEventListener.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/ehcache.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheableEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/DemoApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,17 +123,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="60">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="195">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/LfuStrategyTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/DemoApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="10" column="5" selection-start-line="10" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,6 +168,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -172,12 +187,18 @@
         <option value="$PROJECT_DIR$/src/test/java/com/testproject/demo/CacheConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheStategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/testproject/demo/AssertAll.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testproject/demo/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/EvictionStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/EvictionStrategyBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/testproject/demo/LfuStrategyTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/testproject/demo/LruStrategyTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/LruEvictionStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/LfuEvictionStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testproject/demo/DemoApplication.java" />
       </list>
     </option>
   </component>
@@ -272,13 +293,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -286,7 +300,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569265877646" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569350396619" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -303,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DemoApplicationTests">
+  <component name="RunManager" selected="JUnit.LfuStrategyTests">
     <configuration name="Demo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.testproject.demo.DemoApplication" />
       <module name="demo" />
@@ -319,7 +333,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LfuStrategyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -328,12 +342,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testproject.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.testproject.demo.DemoApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.testproject.demo.LfuStrategyTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplicationTests.testCacheServicePutIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LfuStrategyTests.testLfuStrategyDoubleAddIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -342,14 +356,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testproject.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.testproject.demo.DemoApplicationTests" />
-      <option name="METHOD_NAME" value="testCacheServicePutIsOk" />
+      <option name="MAIN_CLASS_NAME" value="com.testproject.demo.LfuStrategyTests" />
+      <option name="METHOD_NAME" value="testLfuStrategyDoubleAddIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplicationTests.testCacheServiceReturnsNullWhenNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LfuStrategyTests.testLfuStrategyGetMinValueIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -358,14 +372,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testproject.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.testproject.demo.DemoApplicationTests" />
-      <option name="METHOD_NAME" value="testCacheServiceReturnsNullWhenNotFound" />
+      <option name="MAIN_CLASS_NAME" value="com.testproject.demo.LfuStrategyTests" />
+      <option name="METHOD_NAME" value="testLfuStrategyGetMinValueIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplicationTests.testLfuCacheServicePutIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LruStrategyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -374,14 +388,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testproject.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.testproject.demo.DemoApplicationTests" />
-      <option name="METHOD_NAME" value="testLfuCacheServicePutIsOk" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.testproject.demo.LruStrategyTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplicationTests.testLruCacheServicePutIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LruStrategyTests.testLfuStrategyGetMinValueIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -390,8 +402,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testproject.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.testproject.demo.DemoApplicationTests" />
-      <option name="METHOD_NAME" value="testLruCacheServicePutIsOk" />
+      <option name="MAIN_CLASS_NAME" value="com.testproject.demo.LruStrategyTests" />
+      <option name="METHOD_NAME" value="testLfuStrategyGetMinValueIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -403,21 +415,68 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="demo" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Demo" />
-      <item itemvalue="JUnit.DemoApplicationTests.testCacheServiceReturnsNullWhenNotFound" />
-      <item itemvalue="JUnit.DemoApplicationTests.testCacheServicePutIsOk" />
-      <item itemvalue="JUnit.DemoApplicationTests.testLfuCacheServicePutIsOk" />
-      <item itemvalue="JUnit.DemoApplicationTests.testLruCacheServicePutIsOk" />
-      <item itemvalue="JUnit.DemoApplicationTests" />
+      <item itemvalue="JUnit.LfuStrategyTests.testLfuStrategyDoubleAddIsOk" />
+      <item itemvalue="JUnit.LfuStrategyTests.testLfuStrategyGetMinValueIsOk" />
+      <item itemvalue="JUnit.LfuStrategyTests" />
+      <item itemvalue="JUnit.LruStrategyTests.testLfuStrategyGetMinValueIsOk" />
+      <item itemvalue="JUnit.LruStrategyTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DemoApplicationTests" />
-        <item itemvalue="JUnit.DemoApplicationTests.testLfuCacheServicePutIsOk" />
-        <item itemvalue="JUnit.DemoApplicationTests.testLruCacheServicePutIsOk" />
-        <item itemvalue="JUnit.DemoApplicationTests.testCacheServiceReturnsNullWhenNotFound" />
-        <item itemvalue="JUnit.DemoApplicationTests.testCacheServicePutIsOk" />
+        <item itemvalue="JUnit.LfuStrategyTests" />
+        <item itemvalue="JUnit.LruStrategyTests" />
+        <item itemvalue="JUnit.LruStrategyTests.testLfuStrategyGetMinValueIsOk" />
+        <item itemvalue="JUnit.LfuStrategyTests.testLfuStrategyGetMinValueIsOk" />
+        <item itemvalue="JUnit.LfuStrategyTests.testLfuStrategyDoubleAddIsOk" />
       </list>
     </recent_temporary>
   </component>
@@ -435,66 +494,66 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DemoApplicationTests_testCacheServicePutIsOk - 2019.09.23 at 21h 07m 36s.xml">
-      <configuration name="DemoApplicationTests.testCacheServicePutIsOk" configurationId="JUnit" />
+    <history-entry file="LruStrategyTests_testLfuStrategyGetMinValueIsOk - 2019.09.24 at 21h 12m 31s.xml">
+      <configuration name="LruStrategyTests.testLfuStrategyGetMinValueIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoApplicationTests_testCacheServiceReturnsNullWhenNotFound - 2019.09.23 at 21h 08m 08s.xml">
-      <configuration name="DemoApplicationTests.testCacheServiceReturnsNullWhenNotFound" configurationId="JUnit" />
+    <history-entry file="LruStrategyTests_testLfuStrategyGetMinValueIsOk - 2019.09.24 at 21h 14m 53s.xml">
+      <configuration name="LruStrategyTests.testLfuStrategyGetMinValueIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoApplicationTests_testCacheServicePutIsOk - 2019.09.23 at 21h 15m 22s.xml">
-      <configuration name="DemoApplicationTests.testCacheServicePutIsOk" configurationId="JUnit" />
+    <history-entry file="LruStrategyTests_testLfuStrategyGetMinValueIsOk - 2019.09.24 at 21h 19m 05s.xml">
+      <configuration name="LruStrategyTests.testLfuStrategyGetMinValueIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoApplicationTests_testCacheServiceReturnsNullWhenNotFound - 2019.09.23 at 21h 15m 50s.xml">
-      <configuration name="DemoApplicationTests.testCacheServiceReturnsNullWhenNotFound" configurationId="JUnit" />
+    <history-entry file="LruStrategyTests_testLfuStrategyGetMinValueIsOk - 2019.09.24 at 21h 20m 44s.xml">
+      <configuration name="LruStrategyTests.testLfuStrategyGetMinValueIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoApplicationTests_testLfuCacheServicePutIsOk - 2019.09.23 at 21h 48m 03s.xml">
-      <configuration name="DemoApplicationTests.testLfuCacheServicePutIsOk" configurationId="JUnit" />
+    <history-entry file="LruStrategyTests_testLfuStrategyGetMinValueIsOk - 2019.09.24 at 21h 20m 54s.xml">
+      <configuration name="LruStrategyTests.testLfuStrategyGetMinValueIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoApplicationTests_testLruCacheServicePutIsOk - 2019.09.23 at 21h 49m 17s.xml">
-      <configuration name="DemoApplicationTests.testLruCacheServicePutIsOk" configurationId="JUnit" />
+    <history-entry file="LruStrategyTests_testLfuStrategyGetMinValueIsOk - 2019.09.24 at 21h 20m 58s.xml">
+      <configuration name="LruStrategyTests.testLfuStrategyGetMinValueIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoApplicationTests_testLfuCacheServicePutIsOk - 2019.09.23 at 21h 49m 54s.xml">
-      <configuration name="DemoApplicationTests.testLfuCacheServicePutIsOk" configurationId="JUnit" />
+    <history-entry file="LruStrategyTests - 2019.09.24 at 21h 21m 05s.xml">
+      <configuration name="LruStrategyTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoApplicationTests - 2019.09.23 at 21h 51m 37s.xml">
-      <configuration name="DemoApplicationTests" configurationId="JUnit" />
+    <history-entry file="LruStrategyTests - 2019.09.24 at 21h 22m 34s.xml">
+      <configuration name="LruStrategyTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoApplicationTests - 2019.09.23 at 21h 52m 18s.xml">
-      <configuration name="DemoApplicationTests" configurationId="JUnit" />
+    <history-entry file="LruStrategyTests - 2019.09.24 at 21h 23m 46s.xml">
+      <configuration name="LruStrategyTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoApplicationTests - 2019.09.23 at 22h 06m 07s.xml">
-      <configuration name="DemoApplicationTests" configurationId="JUnit" />
+    <history-entry file="LfuStrategyTests - 2019.09.24 at 21h 24m 14s.xml">
+      <configuration name="LfuStrategyTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963988" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.17739628" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32963988" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.17739628" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -529,40 +588,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/CacheEventLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/CacheConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/CacheEventLogger.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/CacheConfig.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheableEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -578,27 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -606,32 +612,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/AssertAll.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/AssertAll.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/EvictionStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="3" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/DemoApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="143">
+          <caret line="10" column="5" selection-start-line="10" selection-end-line="11" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ehcache.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="315">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="368" column="21" selection-start-line="368" selection-start-column="21" selection-end-line="368" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.9.RELEASE/spring-test-5.1.9.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/EvictionStrategyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1049#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/LfuEvictionStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/LruEvictionStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testproject/demo/TestCacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/LruStrategyTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/testproject/demo/LfuStrategyTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
