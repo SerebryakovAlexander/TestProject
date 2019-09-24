@@ -31,7 +31,8 @@ public class TestCacheService {
             String minKey = evictionStrategy.getMinKeyValue();
             objectMap.remove(minKey);
             objectMap.put(key, o);
-            evictionStrategy.removeKey(key);
+            evictionStrategy.addKey(key);
+            evictionStrategy.removeKey(minKey);
         }
     }
 
